@@ -1,0 +1,237 @@
+
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #ffffff;
+    --primary-white-color:#ffffff;
+}
+
+body{
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+/*Стилі для index.html*/
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container{
+margin-left: auto;
+margin-right: auto;
+width: 1200px;
+outline: 2px solid blue;
+}
+/*logo-basic*/
+.logo-basic{
+    color: #000000;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    text-decoration: none;
+}
+
+.logo{
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+/*site-nav*/
+.site-nav .link{
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+color: var(--accent-color);
+}
+
+/*auth-nav list*/
+.auth-nav .link {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/*hero*/
+.hero{
+    text-align: center;
+}
+.hero-title{
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: var(--primary-white-color);
+    background-color: #2F303A;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    
+    letter-spacing: 0.06em;
+}
+.btn {
+    border-radius: 4px;
+    padding: 10px 32px;
+    border: 1px solid transparent;
+
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    
+
+    cursor: pointer;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+/*section*/
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section.no-padding{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.section-title{
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/*features*/
+.features{
+    list-style: none;
+}
+.features .title{
+    margin-top: 0;
+    margin-bottom: 10p;
+
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.features .text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+/*examples*/
+.work-list {
+    list-style: none;
+
+    color: var(--title-text-color);
+}
+
+/*team*/
+.team{
+    background-color: #F5F4FA;
+}
+.team-list{
+    list-style: none;
+}
+.title{
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    line-height: 1.19;
+    text-align: center;
+}
+.team-text{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 400;
+    line-height: 1.19;
+    text-align: center;
+}
+
+
+/*Стилі для portfolio.html*/
+.button-list{
+    list-style: none;
+}
+.button{
+    color: #212121;
+ 
+    cursor: pointer;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.project-title{
+    color:var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.section-description{
+    line-height: 1.88;
+}
+.link{
+    color: var(--primary-text-color);
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
