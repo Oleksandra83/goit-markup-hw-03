@@ -208,10 +208,7 @@ color: var(--accent-color);
 
     color: var(--title-text-color);
 }
-.item {
-    width: 370px;
-    margin-right: 30px;
-}
+
 .work-list .item:not(:last-child) {
     margin-right: 30px;
 }
@@ -224,11 +221,7 @@ color: var(--accent-color);
 .team-list{
     list-style: none;
 }
-.item{
-    width: 270px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
+
 .team-list .item:not(:last-child) {
     margin-right: 30px;
 }
@@ -251,17 +244,19 @@ color: var(--accent-color);
 
 
 /*Стилі для portfolio.html*/
+.button .title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .button-list{
     display: flex;
+    margin-top: 94px;
+    margin-bottom: 34px;
     max-width: 575px;
     
     list-style: none;
 }
 
-.item {
-    margin-right: 30px;
-    margin-bottom: 34px;
-}
 .button-list .item:not(:last-child) {
     margin-right: 30px;
 }
@@ -305,6 +300,8 @@ color: var(--accent-color);
     margin-bottom: 0;
 }
 .project-title{
+    margin-top: 20px;
+    margin-bottom: 4px;
     color:var(--title-text-color);
 
     font-weight: 700;
@@ -314,6 +311,8 @@ color: var(--accent-color);
 }
 
 .section-description{
+    margin-top: 0;
+    margin-bottom: 30px;
     line-height: 1.88;
 }
 .link{
