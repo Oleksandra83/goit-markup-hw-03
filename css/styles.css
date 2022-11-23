@@ -132,8 +132,8 @@ color: var(--accent-color);
     text-align: center;
 }
 .hero-title{
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
+
     max-width: 696px;
 
     color: var(--primary-white-color);
@@ -189,6 +189,12 @@ color: var(--accent-color);
     margin: 0;
     list-style: none;
 }
+.features .item{
+    max-width: 270px;
+}
+.features .item:not(:last-child) {
+    margin-right: 30px;
+}
 .features .title{
     margin-top: 0;
     margin-bottom: 10p;
@@ -201,6 +207,8 @@ color: var(--accent-color);
 }
 
 .features .text{
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -229,7 +237,7 @@ color: var(--accent-color);
 .team-list .item:not(:last-child) {
     margin-right: 30px;
 }
-.title{
+.team .title{
     margin-top: 30;
     margin-bottom: 10px;
     color: var(--title-text-color);
@@ -292,6 +300,8 @@ color: var(--accent-color);
 .filter .title{
     margin-top: 0;
     margin-bottom: 0;
+
+    text-align: center;
 }
 .button-list{
     display: flex;
@@ -367,7 +377,7 @@ color: var(--accent-color);
 
 .section-description{
     margin-top: 0;
-    
+
     line-height: 1.88;
 }
 .link{
