@@ -347,12 +347,15 @@ color: var(--accent-color);
     margin-bottom: 0;
 }
 .element-text{
+    padding: 20px 24px;
+
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
 }
 .project-title{
-    margin-top: 20px;
+    
+    margin-top: 0;
     margin-bottom: 4px;
     color:var(--title-text-color);
 
@@ -364,7 +367,7 @@ color: var(--accent-color);
 
 .section-description{
     margin-top: 0;
-    margin-bottom: 30px;
+    
     line-height: 1.88;
 }
 .link{
