@@ -38,10 +38,12 @@ img {
 }
 
 /*page-heade*/
+.page-header{
+    border-bottom: 1px solid #ECECEC;
+}
 .main-nav {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
 }
 
 .header {
@@ -181,7 +183,18 @@ color: var(--accent-color);
     line-height: 1.16;
     text-align: center;
 }
-
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 /*features*/
 .features{
     display: flex;
@@ -231,14 +244,20 @@ color: var(--accent-color);
     background-color: #F5F4FA;
 }
 .team-list{
+    margin-top: 0;
+    margin-bottom: 0;
     list-style: none;
 }
 
 .team-list .item:not(:last-child) {
     margin-right: 30px;
 }
-.team .title{
-    margin-top: 30;
+.card-text{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.card-text .title{
+    margin-top: 0;
     margin-bottom: 10px;
     color: var(--title-text-color);
 
@@ -247,8 +266,7 @@ color: var(--accent-color);
     text-align: center;
 }
 .team-text{
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin: 0;
     font-weight: 400;
     line-height: 1.19;
     text-align: center;
@@ -292,9 +310,7 @@ color: var(--accent-color);
     color: rgba(255, 255, 255, 0.6);;
 }
 /*Стилі для portfolio.html*/
-.filter{
-    margin-top: 94px;
-    margin-bottom: 34px;
+.container .filter{
     max-width: 575px;
 }
 .filter .title{
@@ -305,7 +321,9 @@ color: var(--accent-color);
 }
 .button-list{
     display: flex;
-    /*margin-bottom: 50px;*/
+    margin-top: 0;
+    margin-bottom: 50px;
+    justify-content: center;
     list-style: none;
 }
 
@@ -314,6 +332,8 @@ color: var(--accent-color);
 }
 
 .button{
+    padding: 6px 22px;
+
     color: var(--title-text-color);
  
     cursor: pointer;
@@ -334,9 +354,7 @@ color: var(--accent-color);
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
-.section-filter{
-    padding-bottom: 94px;
-}
+
 .list {
     display: flex;
     flex-wrap: wrap;
